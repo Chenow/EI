@@ -1,0 +1,15 @@
+cross validation KNN / centrer réduire les données / train = T0.8*T et test 0.2*T / analyser le dataset essayer de voir l'impact des données / créer de nouvelles données (ect: dérivées) feature ingeenering
+
+
+mean_squared_errors = [0.2772971946352024, 0.28836562294756873, 0.2705049234629039, 0.2866179713959944, 0.27553103559673614, 0.292443035255028, 0.28320554817180743, 0.29540256431447426, 0.2891256928212888]
+
+https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html
+quelque chose de cyclique : 
+    - passer de 1 variable allant de 1 à Nallant à N variable allant de 0 à 1
+    - cas continue : passer de 1 variable cyclique dans R à deux variables cos et sin.
+
+
+{'KNN': 0.2595853190789443, 'RFR': 0.1906212225138142, 'SVR': 0.35973768875328055}
+
+
+with cyclique {'model_SVR': 0.014878210657927599, 'model_XGBR': 0.013650845300349464, 'model_KNN': 0.020109652164644307, 'model_RFR': 0.015141457747733969, 'stackregr': 0.012462873335084395}
